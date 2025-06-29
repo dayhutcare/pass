@@ -52,6 +52,8 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+    padding: 40px 20px;
+    min-height: 10vh;
     z-index: 50;
     transition: all 0.3s ease;
     backdrop-filter: blur(40px) saturate(180%);
@@ -126,11 +128,13 @@ body {
 
 .logo-title {
     font-size: 1.3rem;
-    font-weight: 900;
+    font-weight: 700;
     background: linear-gradient(to right, #67e8f9, #a78bfa, #f9a8d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .logo-year {
@@ -1460,6 +1464,7 @@ body {
     justify-content: center;
     position: relative;
     overflow: hidden;
+    padding-top: 5rem;
 }
 
 .hero-grid {
