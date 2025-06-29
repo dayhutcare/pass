@@ -1,0 +1,28 @@
+{
+  "name": "istarc-2025-website",
+  "version": "1.0.0",
+  "description": "ISTARC 2025 - 13th National Science Festival Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx live-server --port=3000 --host=0.0.0.0 --no-browser",
+    "start": "npx live-server --port=3000 --host=0.0.0.0 --no-browser",
+    "build": "echo 'Static site - no build needed'",
+    "preview": "npx live-server --port=4173 --host=0.0.0.0 --no-browser"
+  },
+  "keywords": [
+    "science",
+    "festival",
+    "istarc",
+    "bangladesh",
+    "technology",
+    "tickets"
+  ],
+  "author": "ISTARC Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
